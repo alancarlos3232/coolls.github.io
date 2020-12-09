@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  padding: 30px 0;
+}
+
+.cabinet {
+  width: 684px;
+  height: 1104px;
+  margin: 0 auto 20px;
+  padding: 92px 85px 70px 60px;
+  background: url(shkav.jpg) no-repeat center center/100% 100%;
+}
+
+.title{
+	height: 100px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.book-holder {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.book-holder-1 {
+  height: 210px;
+}
+
+.book-holder-2 {
+  height: 184px;
+}
+
+.book-holder-3 {
+  height: 184px;
+}
+
+.book-holder-4 {
+  height: 182px;
+}
+
+.book-holder-5 {
+  height: 148px;
+  margin-bottom: 0;
+}
+
+img {
+  width: 40px;
+  height: 100%;
+  margin: 0 1px;
+}
+
+.controls {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inp{
+	text-align: center;
+	border-radius: 4px;
+}
+.btn-del{
+	margin: 0 auto;
+}
+
+.inp, .btn{
+	margin-bottom: 5px;
+	width: 200px;
+	height: 40px;
+	
+}
+p{
+	text-align: center;
+	margin: 0 auto;
+}
+
